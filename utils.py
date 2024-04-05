@@ -71,26 +71,26 @@ def correlation_matrix(df, cols):
 def grab_col_names(dataframe, cat_th=10, car_th=20):
     """
 
-    Veri setindeki kategorik, numerik ve kategorik fakat kardinal değişkenlerin isimlerini verir.
-    Not: Kategorik değişkenlerin içerisine numerik görünümlü kategorik değişkenler de dahildir.
+    Returns the names of categorical, numeric and categorical but cardinal variables in the data set.
+    Note: Categorical variables include categorical variables with numeric appearance.
 
     Parameters
     ------
         dataframe: dataframe
-                Değişken isimleri alınmak istenilen dataframe
+                dataframe to get variable names
         cat_th: int, optional
-                numerik fakat kategorik olan değişkenler için sınıf eşik değeri
+                class threshold for numeric but categorical variables
         car_th: int, optinal
-                kategorik fakat kardinal değişkenler için sınıf eşik değeri
+                class threshold for categorical but cardinal variables
 
     Returns
     ------
         cat_cols: list
-                Kategorik değişken listesi
+                Categorical variable list
         num_cols: list
-                Numerik değişken listesi
+                Numeric variable list
         cat_but_car: list
-                Kategorik görünümlü kardinal değişken listesi
+                List of cardinal variables with categorical view
 
     Examples
     ------
@@ -101,9 +101,9 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
 
     Notes
     ------
-        cat_cols + num_cols + cat_but_car = toplam değişken sayısı
-        num_but_cat cat_cols'un içerisinde.
-        Return olan 3 liste toplamı toplam değişken sayısına eşittir: cat_cols + num_cols + cat_but_car = değişken sayısı
+        cat_cols + num_cols + cat_but_car = total number of variables
+        num_but_cat is inside cat_cols.
+        The sum of 3 lists with return equals the total number of variables: cat_cols + num_cols + cat_but_car = number of variables
 
     """
 
