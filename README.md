@@ -15,17 +15,17 @@ The dataset consists of 10 numerical and 8 categorical attributes.
 
 |Variable|Feature description|
 |---|---|
-|Administrative  |Number of pages visited by the customers recorded by the account management system|
-|Administrative duration |The total amount of time (seconds) that the shoppers spend on visiting account management-related pages|
+|Administrative|Number of pages visited by the customers recorded by the account management system|
+|Administrative_Duration|The total amount of time (seconds) that the shoppers spend on visiting account management-related pages|
 |Informational|The number of e-commerce, communication, and shopping site’s addresses visited by the customers|
-|Informational duration|The total amount of time (seconds) that the customers spend on reading information pages|
-|Product related|The number of product-related pages accessed by the customers|
-|Product related duration|The total amount of time (seconds) that the customers spend on surfing product-related pages|
-|Bounce rate|The mean of bounce rate value for the pages accessed by the customers|
-|Exit rate|The mean of exit rate value for the pages accessed by the customers|
-|Page value|The mean of page value for the pages accessed by the customers|
-|Special day|Distance between the site accessing time to a special occasion|
-|Operating|SystemsThe operating systems used by the customers|
+|Informational_Duration|The total amount of time (seconds) that the customers spend on reading information pages|
+|ProductRelated|The number of product-related pages accessed by the customers|
+|ProductRelated_Duration|The total amount of time (seconds) that the customers spend on surfing product-related pages|
+|BounceRates|The mean of bounce rate value for the pages accessed by the customers|
+|ExitRates|The mean of exit rate value for the pages accessed by the customers|
+|PageValues|The mean of page value for the pages accessed by the customers|
+|SpecialDay|Distance between the site accessing time to a special occasion|
+|OperatingSystems|The operating systems used by the customers|
 |Browser|The website browsers used by the shoppers|
 |Region|The geographic region in which the shoppers initialize their sessions|
 |TrafficType|The traffic sources that lead the customers to visit website (e.g., banner, SMS, direct)|
